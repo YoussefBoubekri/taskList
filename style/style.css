@@ -9,9 +9,26 @@
 .panel-footer.footer-warning{background-color: #fcf8e3;}
 
 .tasksContainer{
-    min-height: 500px;
+    min-height: 600px;
 }
-
+.taskList{
+    height: 550px;
+}
+.taskListCollapased{
+    height: 80px;
+}
+.panel{
+    position:relative;
+}
+.panel-footer.footerBottom{
+    position:absolute;
+    width:100%;
+    bottom:0;
+}
+.panel-footer.footerNormal{
+    position:relative;
+    width:100%;
+}
 .clickable{
     cursor: pointer;
 }

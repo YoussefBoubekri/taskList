@@ -1,0 +1,14 @@
+                            <div class="panel-footer footer-warning">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <span class="glyphicon glyphicon-time"></span>
+                                    </div>
+                                    <div class="col-md-8">date created</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <span class="glyphicon glyphicon-edit"></span>
+                                    </div>
+                                    <div class="col-md-8">date edited</div>
+                                </div>
+                            </div>
