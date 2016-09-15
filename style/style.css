@@ -1,0 +1,17 @@
+[data-ng-cloak], [ng-cloak]{
+    display:none !important;
+}
+
+.panel-footer.footer-info{background-color: #d9edf7;}
+
+.panel-footer.footer-success{background-color: #dff0d8;}
+
+.panel-footer.footer-warning{background-color: #fcf8e3;}
+
+.tasksContainer{
+    min-height: 500px;
+}
+
+.clickable{
+    cursor: pointer;
+}
