@@ -1,34 +1,106 @@
-[data-ng-cloak], [ng-cloak]{
-    display:none !important;
+[data-ng-cloak],
+[ng-cloak] {
+    display: none !important;
 }
 
-.panel-footer.footer-info{background-color: #d9edf7;}
+.panel-footer.footer-info {
+    background-color: #d9edf7;
+}
 
-.panel-footer.footer-success{background-color: #dff0d8;}
+.panel-footer.footer-success {
+    background-color: #dff0d8;
+}
 
-.panel-footer.footer-warning{background-color: #fcf8e3;}
+.panel-footer.footer-warning {
+    background-color: #fcf8e3;
+}
 
-.tasksContainer{
+.tasksContainer {
     min-height: 600px;
 }
-.taskList{
+
+.taskList {
     height: 550px;
 }
-.taskListCollapased{
+
+.taskListCollapased {
     height: 80px;
 }
-.panel{
-    position:relative;
+
+.panel {
+    position: relative;
 }
-.panel-footer.footerBottom{
-    position:absolute;
-    width:100%;
-    bottom:0;
+
+.panel-footer.footerBottom {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
-.panel-footer.footerNormal{
-    position:relative;
-    width:100%;
+
+.panel-footer.footerNormal {
+    position: relative;
+    width: 100%;
 }
-.clickable{
+
+.clickable {
     cursor: pointer;
+}
+
+.editTaskButton {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url("../graphics/edit.ico") center top no-repeat;
+}
+
+.editTaskButton:hover {
+    background: url('../graphics/editHover.ico');
+}
+
+.sortTaskButton{
+    width: 32px;
+    height: 32px;
+    display: block;
+    background: url("../graphics/sort.ico") center top no-repeat;
+}
+
+.sortTaskButton:hover{
+        background: url('../graphics/sortHover.ico');
+
+}
+
+.statsTaskButton{
+    width: 32px;
+    height: 32px;
+    display: block;
+    background: url("../graphics/stats.ico") center top no-repeat;
+}
+
+.statsTaskButton:hover{
+        background: url('../graphics/statsHover.ico');
+
+}
+
+.addTaskButton{
+    width: 32px;
+    height: 32px;
+    display: block;
+    background: url("../graphics/add.ico") center top no-repeat;
+}
+
+.addTaskButton:hover{
+        background: url('../graphics/addHover.ico');
+
+}
+
+
+.deleteTaskButton {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url("../graphics/delete.ico") center top no-repeat;
+}
+
+.deleteTaskButton:hover {
+    background: url('../graphics/deleteHover.ico');
 }
